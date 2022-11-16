@@ -52,3 +52,11 @@ Update Mode: resetToDefaultDependencies
 
 The following packages were removed:
   com.unity.feature.2d@1.0.0
+
+=== Mon Nov 14 16:27:00 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.17.2 to 1.17.6
