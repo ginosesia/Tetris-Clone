@@ -15,7 +15,14 @@ public enum Tetromino
 [System.Serializable]
 public struct TetrominoData
 {
-    public Tetromino tetrominoes;
+    public Tetromino tetrominoe;
     public Tile tile;
     public Vector2Int[] cells { get; private set; }
+
+
+    public void Initialize()
+    {
+        this.cells = Data.Cells[this.tetrominoe];
+    }
+
 }

@@ -542,6 +542,7 @@ GameObject:
   - component: {fileID: 1348139142}
   - component: {fileID: 1348139141}
   - component: {fileID: 1348139143}
+  - component: {fileID: 1348139144}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -590,27 +591,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tetrominoes:
-  - tetrominoes: 0
+  - tetrominoe: 0
     tile: {fileID: 11400000, guid: fe066b95b76ed4f98be69e0cb605250a, type: 2}
-    cells: []
-  - tetrominoes: 1
+  - tetrominoe: 0
     tile: {fileID: 11400000, guid: 386c81fa802694139b55d73bac1bb4c6, type: 2}
-    cells: []
-  - tetrominoes: 2
+  - tetrominoe: 0
     tile: {fileID: 11400000, guid: 19a8bf02a98664eb6b0cb4a182fb80a7, type: 2}
-    cells: []
-  - tetrominoes: 3
+  - tetrominoe: 0
     tile: {fileID: 11400000, guid: 92ed444aa6c4943a8a067b2adef1886a, type: 2}
-    cells: []
-  - tetrominoes: 4
+  - tetrominoe: 0
     tile: {fileID: 11400000, guid: b30af22e5f978413e803978f929ce171, type: 2}
-    cells: []
-  - tetrominoes: 5
+  - tetrominoe: 0
     tile: {fileID: 11400000, guid: f665421dfc972424f87759d39d2d939e, type: 2}
-    cells: []
-  - tetrominoes: 6
+  - tetrominoe: 0
     tile: {fileID: 11400000, guid: 1c81a144715ab4ef8a4cfb2af7e45476, type: 2}
-    cells: []
+--- !u!114 &1348139144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348139140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7aaf88270da4e54b64dd219207a8bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2054813980
 GameObject:
   m_ObjectHideFlags: 0
